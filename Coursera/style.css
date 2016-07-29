@@ -2,21 +2,85 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
+  font-family: Helvetica;
 }
 h1 {
   margin-bottom: 15px;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 1.75em;
 }
-p {
+
+h2{
+  position: relative;
+  top: 0px;
+  right: 0px;
+  margin:0px;
+  width:33.33%;
+  float: right;
+  text-align: center;
+  height: 30px;
+  font-size: 1.25em;
+  padding-top: 5px;
+  
+
+}
+
+section {
   position: relative;
   border: 1px solid black;
-  background-color: #A52A2A;
-  height: 150px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
   font-family: Helvetica;
-  color: white;
+  color: #ffffcc;
+  overflow: hidden;
+  margin-top: 0;
+  min-height: 130px;
+}
+
+p{
+  margin:0;
+  padding-top: 45px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 15px;
+  padding-bottom: 35px;
+
+ }
 
 
+.Chicken{
+  background-color: #ff471a;
+  border: 1px solid black;
+  
+  
+
+}
+
+.Beef{
+  background-color: #cc0000;
+  border: 1px solid black;
+}  
+
+
+
+.Sushi {
+  background-color: #990033;
+  border: 1px solid black;
+
+  }
+
+.p1{
+  background-color: #ff8533;
+ }
+
+.p2{
+  background-color: #ff3333;
+}
+
+.p3{
+  background-color: #cc0044 ;
 }
 
 /* Simple Responsive Framework. */
@@ -27,7 +91,7 @@ p {
 /********** Large devices only **********/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3 
-  {float: right;
+  {float: left;
    
     
   }
@@ -47,7 +111,7 @@ p {
 {
   .col-md-1, .col-md-2, .col-md-3
   {
-   float: right;
+   float: left;
    
   }
   .col-md-1 {
@@ -67,7 +131,7 @@ p {
 {
   .col-sm-1, .col-sm-2, .col-sm-3
   {
-   float: right;
+   float: left;
    
   }
   .col-sm-1 {
